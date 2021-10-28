@@ -137,3 +137,101 @@ window.onload = function(){
     renderCarrito()
   }
 }
+
+
+
+
+function f1()
+{
+  const btn = document.querySelector("button");
+  const post = document.querySelector(".post");
+  const widget = document.querySelector(".star-widget");
+  const editBtn = document.querySelector(".edit");
+  btn.onclick = ()=>{
+    widget.style.display = "none";
+    post.style.display = "block";
+    editBtn.onclick = ()=>{
+      widget.style.display = "block";
+      post.style.display = "none";
+    }
+    return false;
+  }
+}
+
+function f2()
+{
+  const boton = document.querySelector("button");
+  const post = document.querySelector(".post");
+  const widget = document.querySelector(".star-widget");
+  const editBtn = document.querySelector(".edit");
+  boton.onclick = ()=>{
+    widget.style.display = "none";
+    post.style.display = "block";
+    editBtn.onclick = ()=>{
+      widget.style.display = "block";
+      post.style.display = "none";
+    }
+    return false;
+  }
+}
+ 
+function funciones(parametro){
+    if(parametro == 1){
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    } else if(parametro != 1){
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    } 
+}
+
+
+function commentBox(){
+	var name=document.getElementById('name').value;
+	var comment=document.getElementById('comment').value;
+ 
+	if(name =="" || comment ==""){
+		alert("Porfavor introduce la informacion requerida!");
+	}else{
+		var parent=document.createElement('div');
+		var el_name=document.createElement('h5');
+		var el_message=document.createElement('p');
+		var el_line=document.createElement('hr');
+		var txt_name=document.createTextNode(name);
+		var txt_message=document.createTextNode(comment);
+		el_name.appendChild(txt_name);
+		el_message.appendChild(txt_message);
+		el_line.style.border='1px solid #000';
+		parent.appendChild(el_name);
+		parent.appendChild(el_line);
+		parent.appendChild(el_message);
+		parent.setAttribute('class', 'pane');
+		document.getElementById('result').appendChild(parent);
+ 
+		document.getElementById('name').value="";
+		document.getElementById('comment').value="";
+	}
+ 
+}

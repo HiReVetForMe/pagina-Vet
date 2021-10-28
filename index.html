@@ -7,7 +7,6 @@
     <meta name="theme-color" content="#bla"  />
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
-  
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -19,6 +18,7 @@
 
   </head>
   <body>
+    
     
     <header class="container-fluid bg-info position-sticky top-0">
       <ul
@@ -42,7 +42,7 @@
           role="tab"
           aria-controls="pills-home"
           aria-selected="false"
-          >Quienes somos</a
+          >Inicio</a
           >
         
         </div>
@@ -118,7 +118,7 @@
                                               <img src="img/perro.png" height="453"alt="" class="imagen-about-us">
                                               <div class="contenido-textos">
                                                   <h3><span>1</span>Los mejores Profesionales</h3>
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                                                  <p>a ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
                                                       consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
                                                       velit doloribus laboriosam ut.</p>
                                                   <h3><span>2</span>Atencion 24/7</h3>
@@ -205,7 +205,10 @@
         role="tabpanel"
         aria-labelledby="pills-profile-tab"
       >
-        <h2 class="h4 m-4 text-primary">Catálogo de Veterinarios</h2>
+      
+      
+       
+        
 
         <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
 
@@ -214,41 +217,159 @@
               <h5 class="card-title pt-2 text-center text-primary">Experto en Traumatologia</h5>
               <img src="img/traumatologo.png" class="card-img-top" alt="...">
               <div class="card-body">
+                <body>
+                  <div class="container">
+                    <div class="post">
+                      <div class="text">Gracias por Valorarnos!</div>
+                      <div class="edit">EDIT</div>
+                    </div>
+                    <div class="star-widget">
+                      <input type="radio" name="rate" id="rate-1">
+                      <label for="rate-1" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-2">
+                      <label for="rate-2" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-3">
+                      <label for="rate-3" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-4">
+                      <label for="rate-4" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-5">
+                      <label for="rate-5" class="fas fa-star"></label>
+                      
+                      <form >
+                        <div class="textarea">
+                          <textarea cols="30" placeholder="Describe tu experiencia.."></textarea>
+                        </div>
+                        <div class="btn">
+                          <p>
+                            <button id="btn" type= "submit"   onclick="f1()">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>Siguiente
+
+                            </button>
+                        </p>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+              
+                </body>
+                
                 <p class="card-text text-white-50 description"></p>
-                <img src="img/5estrellas.png" height="50" class="card-img-top" alt="...">
+        
                 <h4 class="text-primary">Doctor Mario Alonso</h4> 
                 <h4  class="text-primary" height="70" >La Pintana</h4>
                 
                 <h5 class="text-primary">Valor: <span class="precio">$ 15000</span></h5>
                 <div class="d-grid gap-2">
                 <button  class="btn btn-primary button">Añadir a Favoritos</button>
+
               </div>
               </div>
             </div>
           </div>
+
+      
               <div class="col d-flex justify-content-center mb-4">
                 <div class="card shadow mb-1 bg-info rounded" style="width: 20rem;">
                   <h5 class="card-title pt-2 text-center text-primary">Experto en Oftalmologia</h5>
                   <img src="img/oftalmologo.png" height="200"class="card-img-top" alt="...">
                   <div class="card-body">
+                      <div class="container">
+                        <div class="post">
+                          <div class="text">Gracias por Valorarnos!</div>
+                          <div class="edit">EDIT</div>
+                        </div>
+                        <div class="star-widget">
+                          <input type="radio" name="rate" id="rate-11">
+                          <label for="rate-11" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-22">
+                          <label for="rate-22" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-33">
+                          <label for="rate-33" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-44">
+                          <label for="rate-44" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-55">
+                          <label for="rate-55" class="fas fa-star"></label>
+                          
+                          <form >
+                            <div class="textarea">
+                              <textarea cols="30" placeholder="Describe tu experiencia.."></textarea>
+                            </div>
+                            <div class="btn">
+                              <p>
+                                <button  class="btn"></button>
+                            </p>
+                            </div>
+                          </form>
+
+
+                         
+
+
+                        </div>
+                      </div>
+    
+                  
+                     
+      
+
                     <p class="card-text text-white-50 description"></p>
-                    <img src="img/4estrellas.png" height="50" class="card-img-top" alt="...">
                     <h4 class="text-primary">Doctor Roger Fernandez</h4> 
                     <h5  class="text-primary" height="90" >Puente Alto</h5>
                     <h5 class="text-primary">Valor: <span class="precio">$ 10000</span></h5>
+
                     <div class="d-grid gap-2">
                     <button  class="btn btn-primary button">Añadir a Favoritos</button>
                   </div>
                   </div>
                 </div>
               </div>
+
+  
+
+
+
               <div class="col d-flex justify-content-center mb-4">
                 <div class="card shadow mb-1 bg-info rounded" style="width: 20rem;">
                   <h5 class="card-title pt-2 text-center text-primary">Experta en Oncología</h5>
                   <img src="img/oncologo.jpg" height="200"class="card-img-top" alt="...">
                   <div class="card-body">
+
+                    <div class="container">
+                      <div class="post">
+                        <div class="text">Gracias por Valorarnos!</div>
+                        <div class="edit">EDIT</div>
+                      </div>
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-111">
+                        <label for="rate-111" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-222">
+                        <label for="rate-222" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-333">
+                        <label for="rate-333" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-444">
+                        <label for="rate-444" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-555">
+                        <label for="rate-555" class="fas fa-star"></label>
+                        <script src="scripts.js"></script>
+
+                        <form action="#">
+                          <div class="textarea">
+                            <textarea cols="30" placeholder="Describe tu experiencia.."></textarea>
+                          </div>
+                          <div class="btn">
+                           
+                              <button onclick="f1()">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>Siguiente
+                            </button>
+                         
+
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+              
                     <p class="card-text text-white-50 description"></p>
-                    <img src="img/1estrella.png" height="50" class="card-img-top" alt="...">
                     <h4 class="text-primary">Doctora Catalina Henriquez</h4> 
                     <h5  class="text-primary" height="90" >Puente Alto</h5>
                     <h5 class="text-primary">Valor: <span class="precio">$ 25000</span></h5>
@@ -258,13 +379,48 @@
                   </div>
                 </div>
               </div>
+              
+
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-info rounded" style="width: 20rem;">
               <h5 class="card-title pt-2 text-center text-primary">Experto en Cardiología</h5>
-              <img src="img/cardiologo.jpg" height="200" class="card-img-top" alt="...">
+              <img src="../img/cardiologo.jpg" height="200" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="container">
+                  <div class="post">
+                    <div class="text">Gracias por Valorarnos!</div>
+                    <div class="edit">EDIT</div>
+                  </div>
+                  <div class="star-widget">
+                    <input type="radio" name="rate" id="rate-1111">
+                    <label for="rate-1111" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-2222">
+                    <label for="rate-2222" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-3333">
+                    <label for="rate-3333" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-4444">
+                    <label for="rate-4444" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-5555">
+                    <label for="rate-5555" class="fas fa-star"></label>
+                    
+                    <form >
+                      <div class="textarea">
+                        <textarea cols="30" placeholder="Describe tu experiencia.."></textarea>
+                      </div>
+                      <div class="btn">
+                        <p>
+                          <button id="btn" onclick="funciones(1)">
+                              <i class="fa fa-arrow-right" aria-hidden="true"></i>Siguiente
+                          </button>
+                      </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+
+
                 <p class="card-text text-white-50 description"></p>
-                <img src="img/3estrellas.png" height="50" class="card-img-top" alt="...">
                 <h4 class="text-primary">Doctor Ignacio Ortúzar</h4> 
                 <h5  class="text-primary" height="90" >Providencia</h5>
                 <h5 class="text-primary">Primera consulta gratis</h5>
@@ -278,7 +434,7 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-info rounded" style="width: 20rem;">
               <h5 class="card-title pt-2 text-center text-primary">Experta en Fisioterapia</h5>
-              <img src="img/fisioterapeuta.jpg" height="230" class="card-img-top" alt="...">
+              <img src="../img/fisioterapeuta.jpg" height="230" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-white-50 description"></p>
                 <img src="img/2estrellas.png" height="50" class="card-img-top" alt="...">
@@ -294,7 +450,7 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-info rounded" style="width: 20rem;">
               <h5 class="card-title pt-2 text-center text-primary">Experta en Dermatología</h5>
-              <img src="img/dermatologo.jpg" class="card-img-top" alt="...">
+              <img src="../img/dermatologo.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-white-50 description"></p>
                 <img src="img/4estrellas.png" height="50" class="card-img-top" alt="...">
@@ -310,7 +466,7 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-info rounded" style="width: 20rem;">
               <h5 class="card-title pt-2 text-center text-primary">Peluquera canina</h5>
-              <img src="img/peluquera.jpg" height="230" class="card-img-top" alt="...">
+              <img src="../img/peluquera.jpg" height="230" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-white-50 description"></p>
                 <img src="img/5estrellas.png" height="50" class="card-img-top" alt="...">
@@ -326,7 +482,7 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-info rounded" style="width: 20rem;">
               <h5 class="card-title pt-2 text-center text-primary">Experta en Oncología</h5>
-              <img src="img/oncologo2.jpg" height="230" class="card-img-top" alt="...">
+              <img src="../img/oncologo2.jpg" height="230" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-white-50 description"></p>
                 <img src="img/5estrellas.png" height="50" class="card-img-top" alt="...">
@@ -381,6 +537,16 @@
       
       </div>
     </div>
+    
+
+
+
+
+
+
+
+
+
 
     <footer class="bg-info p-5 mt-5">
     </footer>

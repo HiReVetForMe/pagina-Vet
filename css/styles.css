@@ -431,7 +431,7 @@ nav > a:hover{
   .sobre-nosotros .contenido-textos{
       width: 95%;
   }
-
+  
 
   /* Clients */
 
@@ -446,6 +446,8 @@ nav > a:hover{
       width: 90px;
       height: 90px;
   }
+
+  
 
   /* Footer */
 
@@ -474,3 +476,198 @@ nav > a:hover{
   }
 }
 }
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container .post{
+  display: none;
+}
+
+.container .text{
+  font-size: 25px;
+  color: rgb(149, 15, 15);
+  font-weight: 500;
+}
+.container .edit{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: rgb(170, 20, 20);
+  font-weight: 500;
+  cursor: pointer;
+}
+.container .edit:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+.star-widget {
+   direction: rtl; 
+
+}
+.container .star-widget input{
+  display: none;
+float: center;
+
+}
+.star-widget label{
+  font-size: 20px;
+  color: rgb(49, 49, 48);
+  padding: 10px;
+  transition: all 0.2s ease;
+
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color: #fd4;
+}
+input:checked ~ label{
+  color: #fd4;
+}
+input#rate-5:checked ~ label{
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+
+
+.container form{
+  display: none;
+}
+input:checked ~ form{
+  display: block;
+}
+form header{
+  width: 100%;
+  font-size: 25px;
+  color: #fe7;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+form .textarea{
+  height: 100px;
+  width: 100%;
+  overflow:hidden;
+  direction: ltr;
+}
+form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: rgb(2, 2, 2);
+  border: 1px solid rgb(57, 106, 240);
+  background: rgb(53, 216, 202);
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+.textarea textarea:focus{
+  border-color: #444;
+}
+form .btn{
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .btn button{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #444;
+  outline: none;
+  background: rgb(24, 145, 214);
+  color: rgb(11, 11, 12);
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form .btn button:hover{
+  background: #1b1b1b;
+}
+
+
+
+form .boton{
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .boton button{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #444;
+  outline: none;
+  background: rgb(24, 145, 214);
+  color: rgb(11, 11, 12);
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form .boton button:hover{
+  background: #1b1b1b;
+}
+
+
+
+
+form .textaarea{
+  height: 100px;
+  width: 100%;
+  overflow:hidden;
+  direction: ltr;
+}
+form .textaarea textarea{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: rgb(2, 2, 2);
+  border: 1px solid rgb(57, 106, 240);
+  background: rgb(53, 216, 202);
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+.textaarea textarea:focus{
+  border-color: #444;
+}
+
+form .botn{
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .botn button{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #444;
+  outline: none;
+  background: rgb(24, 145, 214);
+  color: rgb(11, 11, 12);
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form .botn button:hover{
+  background: #1b1b1b;
+}
+
+
